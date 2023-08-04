@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PEGARNOS LAS BOCAS</title>
+    <style>
+        body {
+            background-color: #C3F5F6;
+            font-family: Arial, monospace;  /* Aquí cambiamos la tipografía a Courier */
+        }
+        /* Un poco de estilo para visualizar mejor los elementos */
+        #wordList {
+            width: 350px;
+            margin: 0 auto;
+        }
+        #wordList div {
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 5px 0;
+            cursor: move;  /* Cambia el cursor a una mano cuando pasas sobre un elemento */
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.10.2/Sortable.min.js"></script>
+</head>
+<body>
+<p>
+☆El cadáver exquisito es una forma de creación colectiva en el que las participantes hacen su propia obra sin conocer el de las otras personas participantes. Ordena las distintas frases a tu preferencia☆ </p>
+
+<div id="wordList">
+        <div>cuando en mis ojos reposan las aves</div>
+        <div>me gusta dedicarle canciones de amor al jardín</div>
+        <div>la nariz de mi gato un domingo en la mañana</div>
+        <div>abre mis pestañas con el calor de la tarde</div>
+        <div>mi amor es sincero y lo entrego<3</div>
+        <div>soy un santo y no tengo remedio</div>
+        <div>si me extrañas se quema mi fuego</div>
+        <div>de vez en cuando apareces en mi boca, pero ya no con la tuya</div>
+        <div>te quiero como un algodón de azúcar</div>
+        <div>mis alas de libélula te asustan me gustan</div>
+        <div>si me matan, me entierro y renazco en la rosa que en llamas te di</div>
+        <div>quisiera vivir abrazada por la boca de un jarrón</div>
+    </div>
+    <script>
+        new Sortable(wordList, {
+            animation: 150
+        });
+    </script>
+<video width="640" height="480" controls>
+  <source src="C:\Users\Hilda Diaz\Downloads\PEGARNOS LAS BOCAS.mp4" type="video/mp4">
+</video>
+</body>
+</html>
